@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Concating strings"""
+""" Basic annotations - concat """
 
 
 def concat(str1: str, str2: str) -> str:
-    """This functions takes two string inputs and
-       concats them into one string
-    """
+    """ type-annotated function concat that takes a string str1 and a string
+        str2 as arguments and returns a concatenated string """
     return str1 + str2
-
