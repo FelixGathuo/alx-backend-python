@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-""" Annotated to string"""
-def to_str(n: float) ->str:
-    """The function takes an input in form of float
-    and returns as a string
-    """
-    return str(n)
+""" Basic annotations - to string """
 
+
+def to_str(n: float) -> str:
+    """ type-annotated function to_str that takes a float n as argument and
+        returns the string representation of the float. """
+    return str(n)
