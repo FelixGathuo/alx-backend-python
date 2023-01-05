@@ -2,9 +2,8 @@
 """Floor"""
 
 
-def floor(n: float) -> int
+def floor(n: float) -> int:
     """The function takes an input in form of float
-       and returns as int
-    """
+       and returns as int"""
     return int(n)
 
